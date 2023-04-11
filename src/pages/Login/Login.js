@@ -3,6 +3,9 @@ import styles from './Login.module.css'
 import { useState, useEffect } from 'react';
 import { useAuthentication } from '../../hooks/useAuthentication';
 
+import { Link } from 'react-router-dom'
+
+
 
 
 const Login = () => {
@@ -68,6 +71,7 @@ const Login = () => {
         {loading && <button className='btn' disabled>Aguarde...</button>}
         {error && <p className='error'>{error}</p>}
       </form>
+      <Link to="/register">Registrar</Link>
     </div>
   )
 }
