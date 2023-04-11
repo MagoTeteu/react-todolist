@@ -1,0 +1,29 @@
+
+.layout_1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.img_1 {
+    display: flex;
+    justify-content: center;
+}
+
+.text_1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.img_1 {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }

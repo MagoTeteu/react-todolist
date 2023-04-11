@@ -1,0 +1,143 @@
+@import url('https://fonts.cdnfonts.com/css/leipziger-messe');
+@import url('https://fonts.cdnfonts.com/css/jumpstart-kindergarten-vietnam');
+@import url('https://fonts.cdnfonts.com/css/amusette-high-stencil');
+
+
+body {
+    background-color: rgb(250, 253, 255);
+    padding: 0;
+    margin: 0;
+    font-family:'Leipziger Messe';
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-family:'Leipziger Messe';
+    color: gray;
+}
+
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+a,
+nav button {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color: black;
+    transition: .4s;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: 'Amusette High Stencil';
+}
+
+a:hover,
+nav button:hover {
+    color: rgb(94, 180, 255);
+}
+
+
+/*Form Styles*/
+form {
+    max-width: 30%;
+    margin: 0 auto;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+label span {
+    margin-bottom: .3em;
+    font-weight: 500px;
+    text-align: left;
+}
+
+
+input,
+textarea {
+    background-color: #f1f3f4;
+    border-bottom: 1px solid #dfe1e5;
+    font-size: 16px;
+    color: #202124;
+    box-sizing:border-box;
+    border: none;
+    padding: 10px 0;
+    padding: 5%;
+    transition: border-color 0.3s ease-in-out;
+    height: 40px;
+    margin: 3px 0;
+}
+
+
+/*Esse CSS faz com que a Linha abaixo fique azul quando vc clique nele.*/
+input:focus,
+input:focus {
+  border-color: #1a73e8;
+  outline: none;
+}
+/*Esse CSS deixa a Linha cinza quando não esta sendo o foco.*/
+input::placeholder,
+input::placeholder {
+  color: #5f6368;
+}
+
+
+/*Botão Padrão Azul Enviar Fomulário.*/
+.btn {
+    background-color:rgb(14, 0, 46);
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 120px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+
+}
+
+.btn.btn-dark {
+    background-color:black;
+    border-radius: 0;
+}
+.btn.btn-outline {
+    background-color: transparent;
+    border-radius: 0;
+    color: black;
+    border: 1px solid black;
+    padding: 7px 30px;
+}
+
+.btn:hover {
+    background-color:rgb(30, 14, 65) ;
+    color: rgb(94, 180, 255);
+
+}
+
+.btn.btn-outline:hover {
+    background-color: black;
+}
+
+.btn.btn-danger:hover {
+    background-color: #dc3545;
+}
+
+button[disabled] {
+    background-color:gray;
+}
+
+.container .error {
+    color: #721C24;
+    background-color: #F8D7DA;
+    border: 1px solid #F5C6CB;
+    padding: 5px;
+    border-radius: 5px;
+
+}

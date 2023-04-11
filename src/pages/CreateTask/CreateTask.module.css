@@ -1,0 +1,11 @@
+.createTask {
+    text-align: center;
+}
+.createTask h2 {
+    font-size: 2.2em;
+}
+
+.createTask p {
+    color: gray;
+    margin-bottom: 2em;
+}

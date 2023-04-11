@@ -1,0 +1,36 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.search_form {
+    max-width: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 0 20.16%;
+}
+.search_form input {
+    margin-right: 10px;
+    width: 50%;
+}
+p {
+    color: gray;
+}
+
+.notasks {
+    text-align: center;
+}
+
+.notasks p {
+    margin-bottom: 1.5em;
+}
+
+.notasks a {
+    padding: 10px 25px;
+}
+
+
