@@ -59,7 +59,7 @@ function App() {
           <Navbar/>
           <div className="container">
             <Routes>
-              <Route path="/" element={!user ? <Start/> : <Navigate to="/"/>}/>
+              <Route path="/" element={<Start/>}/>
               <Route path="/about" element={<About/>}/>
               <Route path="/search" element={<Search/>}/>
               <Route path="/task/:id" element={<Task/>}/>

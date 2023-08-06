@@ -27,9 +27,12 @@ const EditTask = () => {
 
   const { user } = useAuthValue();
 
+  console.log(user)
+
   const navigate = useNavigate();
 
   const { updateDocument, response } = useUpdateDocument("tasks");
+  console.log(updateDocument)
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -43,7 +46,7 @@ const EditTask = () => {
       {task && (
         <>
           <h2>Editando task: {task.title}</h2>
-          <p>Altere os dados do task como desejar</p>
+          <p>Altere os dados da Tarefa como desejar</p>
           <form onSubmit={handleSubmit}>
             <label>
               <span>Título:</span>

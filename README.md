@@ -10,12 +10,12 @@
 
 ### Tasks - Definition of Done
 
-- [ ] Create a new task 
-    - [ ] with a description (optional);
-- [ ] Edit a existent task and its description (button);
+- [x] Create a new task 
+    - [x] with a description (optional);
+- [x] Edit a existent task and its description (button);
 - [ ] Order tasks by name or by creation date;
 - [ ] Delete all "done" tasks (button);
-- [ ] Delete a specific task (button);
+- [x] Delete a specific task (button);
 - [ ] Show a friendly message when all tasks will be done and deleted. Like: "Parabéns, você concluiu todas as atividades do seu dia";
 - [ ] The main page must be web responsive (desktop/mobile) - Samsung S20 ultra;
 
